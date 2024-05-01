@@ -1,7 +1,8 @@
-Description:
+## Description: ##
 The Parking Management System is a Java-based application designed to manage parking operations such as parking vehicles, exiting vehicles, and processing payments. The system provides three interfaces: command-line interface (CLI), graphical user interface (GUI), and database interaction for storing parking records.
 
-Features:
+## Features: ##
+
 Park Vehicle: Allows users to park vehicles by providing details such as license plate, vehicle type, and payment method (cash or credit card).
 
 Exit Vehicle: Enables users to exit vehicles by entering the license plate number, updating the parking spot status, and recording exit time.
@@ -14,11 +15,12 @@ Graphical User Interface (GUI): Offers a more user-friendly interface for intera
 
 Database Integration: Stores parking records in a MySQL database, allowing for data persistence and retrieval.
 
-Project Flow:
-
+## Project Flow:
 ![image](https://github.com/sunainha-vijay/Vehicle-Parking-Management-System/assets/113001688/39df258a-dd3e-41dc-a81d-de96ed1551e9)
 
-Files:
+
+## Files: ##
+
 ParkingApp.java: Contains the main class for the CLI interface.
 
 ParkingGUI.java: Implements the GUI interface using Java Swing components.
@@ -37,7 +39,8 @@ Payment.java: Defines the Payment interface for processing payments.
 
 README.md: Provides instructions and information about the project.
 
-Setup Instructions:
+## Setup Instructions: ##
+
 Clone the repository to your local machine.
 
 Import the project into your preferred Java IDE.
@@ -50,10 +53,11 @@ Update the JDBC connection URL, username, and password in the ParkingManagementS
 
 Compile and run the ParkingApp.java file for the CLI interface or ParkingGUI.java for the GUI interface.
 
-Usage:
+## Usage: ##
+
 For the CLI interface, follow the on-screen prompts to park vehicles, exit vehicles, or exit the program.
 
 For the GUI interface, launch the ParkingGUI.java file, and use the provided buttons and fields to interact with the system.
 
-License:##
+## License:##
 This project is licensed under the [License Name] License. See the LICENSE file for details.
